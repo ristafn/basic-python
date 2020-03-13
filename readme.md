@@ -16,13 +16,39 @@ Dalam hal perbandingan ini diketahui bahwa code bahsa python lebih sederhana dib
 ## 1. Tipe Data
 Tipe data dalam bahasa python tidak perlu mendeklarasikan tipe datanya terlebih dahulu, akan tetapi bisa langsung dengan variable yang dipakai, contoh :
 ```
-a = 1 #Ini tipe data integer
+print(1) 
+print("Ini tipe data string")
+print(bool(10>9))
+print(12.3)
+```
+### Output
+```
+1
+Ini tipe data string
+True
+```
+## Bedah Code
+```
+a = 1
+```
+- ini adalah variable yang memakai type data Integer
+```
 b = "Ini tipe data string"
 ```
-
+- Ini adalah type data yang menggunakan type data String
+```
+c = bool(10>9)
+```
+- Ini adalah type data boolean yang akan menghasilkan output True/False atau bisa dikatakan juga hasilnya dapat berupa "1" (True) dan "0" (False).
+```
+d = 12.5
+```
+- Ini adalah type data float di python
 ## 2. Variable
 Dalam variable python, kita tidak perlu mendeklarasikan tipe data yang akan di pakai variable, 
 ```
 a = 1
 b = 2
 ```
+
+## 3. 
