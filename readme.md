@@ -45,11 +45,41 @@ c = bool(10>9)
 d = 12.3
 ```
 - Ini adalah type data float di python
-## 2. Variable
-Dalam variable python, kita tidak perlu mendeklarasikan tipe data yang akan di pakai variable, 
+
+Dalam python, kita tidak perlu mendeklarasikan type data pada variabel tertentu, contoh :
 ```
 a = 1
-b = 2
+b = "String"
+c = 1.0
+d = True
 ```
 
-## 3. 
+## 2. Mengambil Input Data
+Digunakan untuk mengambil suatu nilai atau value dari user dan disimpan dalam suatu variabel yang nantinya digunakan untuk kebutuhan program, contoh :
+
+- Mengambil input berupa String
+```
+data = input("Masukkan string\t: ")
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"\t" digunakan untuk memberikan satu tab
+- Mengambil input berupa integer
+```
+data = int(input("Masukkan integer\t: ))
+```
+## 3. If Elif Else Statement
+Ini digunakan untuk mempertimbangkan suatu kondisi yang terjadi dalam suatu kasus tertentu, contoh :
+```
+a = satu
+
+if(a == "satu"):
+    print(1)
+elif(a == "dua"):
+    print(2)
+else:
+    print("Error")
+```
+## Output
+```
+1
+```
+## Bedah Code
