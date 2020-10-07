@@ -26,6 +26,7 @@ print(12.3)
 1
 Ini tipe data string
 True
+12.3
 ```
 ## Bedah Code
 ```
@@ -41,7 +42,7 @@ c = bool(10>9)
 ```
 - Ini adalah type data boolean yang akan menghasilkan output True/False atau bisa dikatakan juga hasilnya dapat berupa "1" (True) dan "0" (False).
 ```
-d = 12.5
+d = 12.3
 ```
 - Ini adalah type data float di python
 ## 2. Variable
