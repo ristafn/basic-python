@@ -28,7 +28,7 @@ Ini tipe data string
 True
 12.3
 ```
-## Bedah Code
+### Bedah Code
 ```
 a = 1
 ```
@@ -78,8 +78,78 @@ elif(a == "dua"):
 else:
     print("Error")
 ```
-## Output
+### Output
 ```
 1
 ```
-## Bedah Code
+### Bedah Code
+```
+if(a == "satu"):
+    print(1)
+```
+Statement if digunakan untuk memenuhi kondisi pertama, yaitu ketika variabel a bernilai 1, maka akan menghasilkan output 1. Akan tetapi, jika kondisi if ini tidak terpenuhi, maka akan masuk ke kondisi selanjutnya, yaitu :
+```
+elif(a == "dua"):
+    print(2)
+```
+Seperti halnya if, elif juga memiliki kondisi yang setidaknya harus terpenuhi, yaitu a == "dua". Apabila kondisi tidak terpenuhi kembali, maka pasti akan terpilih kondisi terakhir, yaitu :
+```
+else:
+    print("Error")
+```
+
+## 4. Perulangan
+Perulangan digunakan untuk mengulang suatu nilai dalam kondisi tertentu baik terurut ataupun mengulang nilai yang sama.
+## Perulangan For
+```
+for i in range(1, 10, 1):
+    print(i)
+```
+### Output
+```
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+Contoh menggunakan nilai dalam suatu list
+```
+list = {1,2,3,4,5,6}
+
+for i in list:
+    print(i)
+```
+### Output
+```
+1
+2
+3
+4
+5
+6
+```
+### Bedah Code
+Bentuk umum
+```
+for i in range(perulangan awal, panjang perulangan, selisih):
+    print(i)
+```
+&nbsp;&nbsp;"i" digunakan untuk menampung nilai
+
+Jika dilihat dari contoh,
+```
+for i in range(1, 10, 1):
+    print(i)
+```
+Maka, perulangan tersebut mempunyai angka awal: 1, panjang perulangan: 10, dan selisih: 1.
+
+## Perulangan While
+```
+
+```
