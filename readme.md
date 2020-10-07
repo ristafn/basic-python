@@ -120,7 +120,7 @@ for i in range(1, 10, 1):
 ```
 Contoh menggunakan nilai dalam suatu list
 ```
-list = {1,2,3,4,5,6}
+list = [1,2,3,4,5,6]
 
 for i in list:
     print(i)
@@ -151,5 +151,38 @@ Maka, perulangan tersebut mempunyai angka awal: 1, panjang perulangan: 10, dan s
 
 ## Perulangan While
 ```
-
+i = 1
+while i < 10:
+  print(i)
+  i += 1
 ```
+### Output
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+### Bedah Code
+Variabel ini digunakan untuk memulai perulangan (angka awal)
+```
+i = 1
+```
+Ini adalah bagian panjang perulangannya, bisa disesuaikan dengan kebutuhan
+```
+while i < 10:
+```
+Ini digunakan untuk selisihnya
+```
+i += 1
+```
+Bisa juga diganti dengan ini
+```
+i = i + 1
+```
+
